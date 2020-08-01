@@ -1,0 +1,32 @@
+.headerContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: Noto Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 150%;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #9CA3A6;
+    width:60%;
+}
+
+.headerContainer div:nth-child(2){
+    font-family: Noto Sans;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 170%;
+    color: #25445C;
+    margin-top: 2.5%;
+}
+
+@media (max-width:768px){
+    .headerContainer{
+        width: 80%;
+        margin-top:5%;
+    }
+}
+

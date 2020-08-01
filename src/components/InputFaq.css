@@ -1,0 +1,89 @@
+html, body{
+    width: 100%;
+    height: 100%;
+    background: #EFF8FE;
+    margin:0px;
+}
+
+.faqsContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding:5% 0% 7% 0%;
+    background: #EFF8FE;
+    font-family: Noto Serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 170%;
+    color: #25445C; 
+}
+
+.inputFaqBox{
+    width: 60%;
+    margin-top:0.5%;
+}
+
+form{
+    display: flex;
+}
+
+.input-box{
+    font-family: Noto Serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 170%;
+    color: #25445C;
+    background-color: transparent;
+    border:none;
+    margin:0.5% 0%;
+    width:100%;
+}
+.input-box:focus{
+    outline: none;
+}
+.input-box::placeholder{
+    font-family: Noto Serif;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 170%;
+    color: #64B5F6;
+}
+
+.inputFaqContainer{
+    padding:1% 1% 5% 0%;
+    text-align: left;
+    border-bottom:1px dashed #D8DADC;
+    width: 100%;
+    position: relative;
+}
+
+.addNewInput{
+    position: absolute;
+    bottom:-25%;
+    left:50%;
+    font-size: 36px;
+    cursor: pointer;
+    padding:1.2% 1.7%;
+    background-color: #E0F0FD;
+    border-radius:50%;
+    color:#64B5F6;
+    border: none;
+    box-shadow: 0.5px 0px 2px rgb(114, 113, 113);
+}
+
+@media (max-width:768px){
+    .inputFaqBox{
+        width: 80%;
+        margin-top:5%;
+    }
+    .inputFaqContainer{
+        padding-bottom: 10%;
+    }
+    .addNewInput{
+        bottom: -20%;
+    }
+}
